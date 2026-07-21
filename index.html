@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A modern responsive website ready for your existing domain." />
+    <title>Bright Studio | Modern Web Presence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="#home">Bright Studio</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Launch-ready website</p>
+            <h1>Modern, fast, and built to impress.</h1>
+            <p class="hero-copy">
+              Your new online presence starts here with a polished landing page that is easy to customize for your brand, products, or services.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#contact">Get Started</a>
+              <a class="button secondary" href="#services">Explore Services</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3>What this site includes</h3>
+            <ul>
+              <li>Responsive layout for all devices</li>
+              <li>Clean modern design</li>
+              <li>Simple contact section</li>
+              <li>Ready for deployment to your domain</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Built for credibility and growth.</h2>
+            <p>
+              This starter website gives you a strong foundation for a business, portfolio, agency, or personal brand. It is fully static, lightweight, and easy to host on any standard web server.
+            </p>
+          </div>
+          <div class="info-card">
+            <h3>Why it works</h3>
+            <p>Fast to load, simple to edit, and made to be extended with more pages when you need them.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt">
+        <div class="container">
+          <p class="eyebrow">Services</p>
+          <h2>Everything you need for a strong first impression.</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Professional Design</h3>
+              <p>Clean visual structure with thoughtful spacing and typography.</p>
+            </article>
+            <article class="card">
+              <h3>Mobile Friendly</h3>
+              <p>Optimized layouts that look great on phones, tablets, and desktops.</p>
+            </article>
+            <article class="card">
+              <h3>Easy Update</h3>
+              <p>Replace the text, colors, and content to match your brand quickly.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Ready to launch your website?</h2>
+            <p>Use this section to connect visitors with your email, phone, or booking link.</p>
+          </div>
+          <a class="button primary" href="mailto:hello@example.com">Contact Us</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Bright Studio. All rights reserved.</p>
+        <p>Hosted on your existing domain in minutes.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
